@@ -1,0 +1,196 @@
+319	 pwd
+320	 mkdir git-basic-exercises
+321	 cd git-basic-exercises/
+322	 ls -a
+323	 git init
+324	 ls -a
+325	 git status
+326	 touch README.md
+327	 ls -a
+328	 git status
+329	 git log
+330	 git add README.md 
+331	 git commit -m "initial commit"
+332	 git log
+333	 git config --global user.email "aldrin.gama@umuzi.org"
+334	 git config --global user.name "AldrinBGama"
+335	 pwd
+336	 ls -a
+337	 git add README.md 
+338	 git commit -m "initial commit"
+339	 nano README.md 
+340	 git add README.md 
+341	 git commit -m "initial commit"
+342	 git log
+343	 cd ..
+344	 rm -rf git-basic-exercises/
+345	 ls
+346	 mkdir git-basic-exercises
+347	 clear
+348	 cd git-basic-exercises/
+349	 ls -a 
+350	 git init
+351	 ls -a 
+352	 git status
+353	 touch README.md
+354	 ls -a
+355	 git status
+356	 git log
+357	 git add
+358	 git add README.md 
+359	 clear
+360	 git status
+361	 git rm --cached README.md 
+362	 git status
+363	 git add README.md 
+364	 git commit -m "initial commit"
+365	 git log
+366	 q
+367	 clear
+368	 nano README.md 
+369	 cat README.md 
+370	 git status
+371	 git add README.md 
+372	 git commit -m "second commit"
+373	 nano README.md 
+374	 cat README.md 
+375	 git add README.md 
+376	 git commit -m "third commit"
+377	 git log
+378	 git checkout
+379	 546eabacfc795339faa61343a1aefc2c41e09bd5
+380	 git checkout 546eabacfc795339faa61343a1aefc2c41e09bd5
+381	 cat README.md 
+382	 git checkout master
+383	 cat README.md 
+384	 clear
+385	 git branch
+386	 git branch milkshake-flavours
+387	 git branch
+388	 git checkout milkshake-flavours
+389	 git branch
+390	 nano milkshakes.md
+391	 git status
+392	 git add milkshakes.md 
+393	 git commit -m 
+394	 git commit -m "added initial flavours"
+395	 git status
+396	 clear
+397	 git branch history
+398	 git checkout history
+399	 git branch
+400	 git log
+401	 git branch -D history
+402	 git checkout history
+403	 git checkout milkshake-flavours
+404	 git branch -D history
+405	 git branch
+406	 git checkout master
+407	 git branch history
+408	 git branch
+409	 git checkout history
+410	 git branch
+411	 git log
+412	 history > history.txt
+413	 git add history.txt 
+414	 git commit -m "added history"
+415	 git log
+416	 git checkout milkshake
+417	 git checkout milkshake-flavours
+418	 git log
+419	 ls
+420	 nano README.md 
+421	 git checkout history
+422	 cat README.md 
+423	 rm README.md echo "booya" > README.md
+424	 rm README.md 
+425	 echo "booya" > README.md
+426	 git add README.md 
+427	 git commit -m "rewrote readme"
+428	 git checkout master
+429	 ls
+430	 git log
+431	 git status
+432	 git checkout milkshake-flavours
+433	 ls
+434	 git log
+435	 git checkout history
+436	 ls
+437	 git log
+438	 clear
+439	 git branhc
+440	 git branch
+441	 git checkout master
+442	 git branch
+443	 merge milkshake-flavours
+444	 git merge milkshake-flavours
+445	 ls
+446	 git log
+447	 git merge history
+448	 ls
+449	 git log
+450	 git remote add origin https://github.com/AldrinBGama/git-basic-exercises.git
+451	 git push -u origin master
+452	 git push -u origin milkshakes
+453	 git push -u origin milkshakes-flavours
+454	 git push -u origin milkshake-flavours
+455	 git push -u origin history
+456	 cd ../
+457	 git clone https://github.com/Umuzi-org/tech-department
+458	 cd tech-department/
+459	 git branch
+460	 git log
+461	 git branch -a
+462	 git checkout project/git-basic-exercises
+463	 cd ..
+464	 clear
+465	 ls
+466	 mkdir project
+467	 cd project/
+468	 git init
+469	 git branch git-basic-exercises
+470	 git branch
+471	 ls
+472	 pwd
+473	 git checkout -b git-basic-exercises project
+474	 git checkout -b project git-basic-exercises
+475	 ls
+476	 mkdir git-basic-exercises
+477	 cd git-basic-exercises/
+478	 git init
+479	 git remote -v
+480	 git log
+481	 cd ../../git-basic-exercises/
+482	 git log
+483	 cd ~
+484	 mkdir this-will-be-another-repo
+485	 cd this-will-be-another-repo/
+486	 clear
+487	 git init
+488	 touch README.md
+489	 git add README.md 
+490	 git commit -m "committed on another repo"
+491	 cd ../git-basic-exercises/
+492	 git log
+493	 touch ignore-me.db
+494	 git status
+495	 nano .gitignore
+496	 nano .gitignore
+497	 git status
+498	 nano .gitignore
+499	 git status
+500	 poweroff
+501	 pwd
+502	 ls
+503	 cd git-basic-exercises/
+504	 ls
+505	 mkdir large-directory-that-should-be-local-only
+506	 cd large-directory-that-should-be-local-only/
+507	 nano readme.md
+508	 cd ..
+509	 git status
+510	 nano .gitignore
+511	 nano .gitignore
+512	 git status
+513	 nano .gitignore
+514	 git status
